@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS for animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Profile picture */
+        .profile-picture {
+            width: 200px; /* Adjust size as needed */
+            height: 200px; /* Adjust size as needed */
+            border-radius: 50%; /* Make it round */
+            animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+            margin: 20px auto; /* Center the image */
+            display: block;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profile picture -->
+    <img class="profile-picture" src="https://mystaticwebsiteproject0147a.s3.amazonaws.com/Monkey_D_Luffy.png" alt="John's Profile Picture">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write something about yourself here.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more project details as needed -->
+    </section>
+
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <div class="review">
+            <h3>Client 1</h3>
+            <p>"John's work was outstanding! He exceeded our expectations."</p>
+        </div>
+        <div class="review">
+            <h3>Client 2</h3>
+            <p>"Working with John was a pleasure. He delivered on time and with precision."</p>
+        </div>
+        <!-- Add more reviews as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at john@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
